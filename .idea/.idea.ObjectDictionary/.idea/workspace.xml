@@ -1,10 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ChangeListManager">
+    <list default="true" id="254f11c6-2f44-495c-8dfd-e94960ea410c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ObjectDictionary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ObjectDictionary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.Droid/ObjectDictionary.Droid.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.Droid/ObjectDictionary.Droid.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.Droid/Resources/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.Droid/Resources/Resource.designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.Droid/obj/Debug/MonoAndroid71/ObjectDictionary.Droid.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.Droid/obj/Debug/MonoAndroid71/ObjectDictionary.Droid.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.iOS/ObjectDictionary.iOS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.iOS/ObjectDictionary.iOS.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectDictionary/ObjectDictionary/obj/Debug/ObjectDictionary.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectDictionary/ObjectDictionary/obj/Debug/ObjectDictionary.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="632870274">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="config" value="2" />
+          <entry key="cs" value="7" />
+          <entry key="targets" value="2" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="7" />
+          <entry key="Config" value="2" />
+          <entry key="MsBuild targets file" value="2" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="2" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="2" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_AndroidApiLevel</find>
+      <find>_AndroidManifestAbs</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ObjectDictionary/ObjectDictionary/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.Droid/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.Droid/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.Droid/MainActivity.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.Droid/MainActivity.cs" />
+        <option value="$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.Droid/Properties/AndroidManifest.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="25" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ObjectDictionary" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ObjectDictionary" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ObjectDictionary" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ObjectDictionary" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ObjectDictionary" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ObjectDictionary" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ObjectDictionary.Droid" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ObjectDictionary" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ObjectDictionary.Droid" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Properties" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -12,20 +142,32 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="Xamarin.Android.Android Default">
     <configuration name="Android Default" type="XamarinAndroidProject" factoryName="Xamarin.Android">
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.Droid/ObjectDictionary.Droid.csproj" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="DEPLOY_BEHAVIOUR_NAME" value="Default" />
-      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="Ask" />
-      <option name="DEFAULT_EMULATOR_TO_RUN" value="" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="ConnectedDevice" />
+      <option name="DEFAULT_EMULATOR_TO_RUN" value="xiaomi-mi_mix_2-97af8dee" />
       <option name="DEFAULT_DEVICE_TO_RUN" value="" />
       <method v="2">
         <option name="Build" enabled="true" />
       </method>
     </configuration>
     <configuration name="iOS Default" type="XamarinIOSProject" factoryName="Xamarin.iOS">
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.iOS/ObjectDictionary.iOS.csproj" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="DEFAULT_IPHONE_DEVICE" value="" />
       <option name="DEFAULT_IPHONE_SIMULATOR" value="" />
@@ -36,5 +178,137 @@
       <item itemvalue="Xamarin.Android.Android Default" />
       <item itemvalue="Xamarin.iOS.iOS Default" />
     </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="254f11c6-2f44-495c-8dfd-e94960ea410c" name="Default Changelist" comment="" />
+      <created>1539850047235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539850047235</updated>
+      <workItem from="1539850054927" duration="327000" />
+      <workItem from="1539850687538" duration="727000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1054000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32939914" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32939914" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ObjectDictionary/ObjectDictionary/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <marker date="1539850077919" expanded="false" signature="6:63" ph="..." />
+            <marker date="1539850077919" expanded="true" signature="65:195" ph="/* Information about this assembly is defined by the following attributes. ... */" />
+            <marker date="1539850077919" expanded="true" signature="500:724" ph="/* The assembly version has the format &quot;{Major}.{Minor}.{Build}.{Revision}&quot;. ... */" />
+            <marker date="1539850077919" expanded="true" signature="764:998" ph="/* The following attributes are used to specify the signing key for the assembly, ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.Droid/packages.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://F:/Visual Studio/MSBuild/Xamarin/Android/Xamarin.Android.Common.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="629" column="46" selection-start-line="629" selection-start-column="27" selection-end-line="629" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.Droid/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1539850078112" expanded="false" signature="6:82" ph="..." />
+            <marker date="1539850078112" expanded="true" signature="84:214" ph="/* Information about this assembly is defined by the following attributes. ... */" />
+            <marker date="1539850078112" expanded="true" signature="525:749" ph="/* The assembly version has the format &quot;{Major}.{Minor}.{Build}.{Revision}&quot;. ... */" />
+            <marker date="1539850078112" expanded="true" signature="789:1023" ph="/* The following attributes are used to specify the signing key for the assembly, ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.Droid/Properties/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ObjectDictionary/ObjectDictionary.Droid/MainActivity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1539850327059" expanded="false" signature="6:165" ph="..." />
+            <marker date="1539850327059" expanded="true" signature="199:840" ph="{...}" />
+            <marker date="1539850327059" expanded="true" signature="206:407" ph="[...]" />
+            <marker date="1539850327059" expanded="true" signature="501:838" ph="{...}" />
+            <marker date="1539850327059" expanded="true" signature="563:832" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
