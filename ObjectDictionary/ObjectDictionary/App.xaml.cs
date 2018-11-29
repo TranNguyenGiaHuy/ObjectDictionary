@@ -1,5 +1,8 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace ObjectDictionary
 {
     public partial class App : Application
@@ -7,8 +10,8 @@ namespace ObjectDictionary
         public App()
         {
             InitializeComponent();
-
-            MainPage = new ObjectDictionaryPage();
+            
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
