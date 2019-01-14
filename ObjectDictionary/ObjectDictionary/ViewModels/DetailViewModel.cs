@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace ObjectDictionary.ViewModels
@@ -16,6 +17,7 @@ namespace ObjectDictionary.ViewModels
         private Realm Realm;
         private readonly ImageData ImageData;
         public IEnumerable<Concept> Concepts { get; }
+        public Command<string> SpeakTextCommand { get; }
         //public Command SelectConceptCommand { get; }
 
         public DetailViewModel(ImageData imageData)
@@ -24,6 +26,12 @@ namespace ObjectDictionary.ViewModels
             ImageData = imageData;
             Concepts = Realm.All<Concept>().Where(it => it.imageData == imageData);
             //SelectConceptCommand = new Command(async (param) => await SelectConcept((Concept)param));
+            SpeakTextCommand = new Command<string>((text) => SpeakText(text));
+        }
+
+        private async Task SpeakText(string text)
+        {
+            await TextToSpeech.SpeakAsync(text);
         }
 
         //private async Task SelectConcept(Concept concept)

@@ -5,10 +5,20 @@
     <ContentPage.Content>
         <StackLayout>
             <ListView x:Name="listView" ItemSelected="listView_ItemSelected"
-                      ItemsSource="{Binding Concepts}">
+                      ItemsSource="{Binding Concepts}"
+                      RowHeight="60">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding value}" TextColor="BlueViolet"/>
+                        <ViewCell Height="60">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="60"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding value}" TextColor="BlueViolet" VerticalOptions="Center"/>
+                                <Button Text="🔈" Grid.Column="1" BackgroundColor="Transparent" VerticalOptions="Center" Command="{Binding SpeakTextCommand}" CommandParameter="{Binding value}"/>
+                            </Grid>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
