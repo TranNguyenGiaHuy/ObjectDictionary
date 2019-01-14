@@ -2,6 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ObjectDictionary"
+             xmlns:custom="clr-namespace:ObjectDictionary.Controls"
+             xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
              x:Class="ObjectDictionary.MainPage"
              NavigationPage.HasNavigationBar="True"
              Title="Object Dictionary">
@@ -9,17 +11,40 @@
         <ToolbarItem Text="Add" x:Name="toolbarItemAdd" Command="{Binding AddImageCommand}"/>
     </ContentPage.ToolbarItems>
 
-    <StackLayout>
-        <ListView x:Name="listView"
-                  ItemSelected="ListView_ItemSelected"
-                  ItemsSource="{Binding ImageDatas}"
-                  IsPullToRefreshEnabled="False">
-            <ListView.ItemTemplate>
+    <Grid x:Name="page">
+        <controls:CarouselViewControl x:Name="carousel" PositionSelected="Handle_PositionSelected" Scrolled="Handle_Scrolled" Orientation="Horizontal" ShowIndicators="true" IndicatorsTintColor="#CCFFFFFF" CurrentPageIndicatorTintColor="#FFFFFF" IndicatorsShape="Square" InterPageSpacing="0" ItemsSource="{Binding Items, Mode=TwoWay}"
+            VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <controls:CarouselViewControl.ItemTemplate>
                 <DataTemplate>
-                    <ImageCell Text="{Binding displayDateTime}" ImageSource="{Binding path}" DetailColor="Accent"/>
+                    <Grid Padding="32,64,32,64">
+                        <custom:RoundedContentView CornerRadius="32" BackgroundColor="#FFFFFF">
+                            <StackLayout VerticalOptions="Fill" HorizontalOptions="Fill">
+                                <custom:RoundedContentView VerticalOptions="FillAndExpand" HeightRequest="400" CornerRadius="32" HasBackgroundGradient="true" GradientStartColor="{Binding StartColor}" GradientEndColor="{Binding EndColor}">
+                                    <Grid>
+                                        <Label Text="{Binding Title}" HorizontalOptions="Center" TextColor="#55000000" VerticalOptions="End" Margin="0,0,0,24" FontSize="140" FontAttributes="Bold" LineBreakMode="NoWrap" />
+                                        <StackLayout>
+                                            <StackLayout Orientation="Horizontal">
+                                                <Image TranslationX="{Binding Position}" Source="logo.png" HeightRequest="32" Margin="24,24,24,0" />
+                                                <Label TranslationX="{Binding Position}" HorizontalOptions="EndAndExpand" Text="{Binding Price, StringFormat='$ {0}'}" TextColor="#FFFFFF" Margin="24,24,24,0" FontSize="18" LineBreakMode="NoWrap" />
+                                            </StackLayout>
+                                            <Label TranslationX="{Binding Position}" Text="{Binding Name}" TextColor="#FFFFFF" Margin="24,24,24,0" FontSize="16" FontAttributes="Bold" LineBreakMode="NoWrap" />
+                                            <Label TranslationX="{Binding Position}" Text="{Binding Description}" TextColor="#FFFFFF" Margin="24,8,24,24" FontSize="12" LineBreakMode="WordWrap" />
+                                        </StackLayout>
+                                    </Grid>
+                                </custom:RoundedContentView>
+                                <StackLayout BackgroundColor="#FFFFFF" VerticalOptions="FillAndExpand" Margin="0,-32,0,32">
+                                    <StackLayout VerticalOptions="CenterAndExpand" Margin="0,32,0,0">
+                                        <custom:RoundedButton BackgroundColor="#FFFFFF" TranslationX="{Binding Position}" Padding="20,0" CornerRadius="20" TextColor="{Binding BackgroundColor}" FontSize="12" BorderColor="{Binding BackgroundColor}" BorderWidth="2" HeightRequest="40" Text="DETAIL" HorizontalOptions="Center" Clicked="RoundedButton_Clicked"/>
+                                        <Label TranslationX="{Binding Position}" Margin="0,8,0,0" TextColor="Gray" Text="{Binding Type}" FontSize="16" HorizontalOptions="Center" />
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </custom:RoundedContentView>
+                        <Image TranslationX="{Binding Position}" Source="{Binding ImageSrc}" WidthRequest="300" Rotation="{Binding Rotation}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="5,5,5,152" />
+                    </Grid>
                 </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-    </StackLayout>
+            </controls:CarouselViewControl.ItemTemplate>
+        </controls:CarouselViewControl>
+    </Grid>
 
 </ContentPage>

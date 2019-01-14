@@ -9,6 +9,7 @@ using Android.OS;
 using Acr.UserDialogs;
 using Plugin.Permissions;
 using Plugin.CurrentActivity;
+using CarouselView.FormsPlugin.Android;
 
 namespace ObjectDictionary.Droid
 {
@@ -24,6 +25,7 @@ namespace ObjectDictionary.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
             UserDialogs.Init(this);
+            CarouselViewRenderer.Init();
 
             CrossCurrentActivity.Current.Activity = this;
         }
