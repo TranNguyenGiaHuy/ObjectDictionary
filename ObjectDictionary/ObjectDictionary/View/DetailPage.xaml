@@ -4,7 +4,8 @@
              x:Class="ObjectDictionary.DetailPage">
     <ContentPage.Content>
         <StackLayout>
-            <ListView x:Name="listView" ItemSelected="listView_ItemSelected">
+            <ListView x:Name="listView" ItemSelected="listView_ItemSelected"
+                      ItemsSource="{Binding Concepts}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding value}"/>

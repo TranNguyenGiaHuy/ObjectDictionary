@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ObjectDictionary.ViewModels;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,8 +11,12 @@ namespace ObjectDictionary
         public App()
         {
             InitializeComponent();
-            
-            MainPage = new NavigationPage(new MainPage());
+
+            MainPage = new NavigationPage(
+                new MainPage
+                {
+                    BindingContext = new MainViewModel()
+                });
         }
 
         protected override void OnStart()

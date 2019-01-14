@@ -4,7 +4,8 @@
              x:Class="ObjectDictionary.DictionaryPage">
     <ContentPage.Content>
         <StackLayout>
-            <ListView x:Name="listView">
+            <ListView x:Name="listView"
+                      ItemsSource="{Binding Dictionaries}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <TextCell Text="{Binding en}" Detail="{Binding vi}"/>

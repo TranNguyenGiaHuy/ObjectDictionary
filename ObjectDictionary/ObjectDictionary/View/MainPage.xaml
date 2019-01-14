@@ -6,15 +6,17 @@
              NavigationPage.HasNavigationBar="True"
              Title="Object Dictionary">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add" x:Name="toolbarItemAdd" Clicked="ToolbarItemAdd_Clicked"/>
+        <ToolbarItem Text="Add" x:Name="toolbarItemAdd" Command="{Binding AddImageCommand}"/>
     </ContentPage.ToolbarItems>
 
     <StackLayout>
         <ListView x:Name="listView"
-                  ItemSelected="ListView_ItemSelected">
+                  ItemSelected="ListView_ItemSelected"
+                  ItemsSource="{Binding ImageDatas}"
+                  IsPullToRefreshEnabled="False">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ImageCell Text="{Binding displayDateTime}" ImageSource="{Binding path}"/>
+                    <ImageCell Text="{Binding displayDateTime}" ImageSource="{Binding path}" DetailColor="Accent"/>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
