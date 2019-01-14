@@ -8,7 +8,7 @@
                       ItemsSource="{Binding Concepts}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding value}"/>
+                        <TextCell Text="{Binding value}" TextColor="BlueViolet"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

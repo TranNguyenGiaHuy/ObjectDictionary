@@ -5,10 +5,11 @@
     <ContentPage.Content>
         <StackLayout>
             <ListView x:Name="listView"
-                      ItemsSource="{Binding Dictionaries}">
+                      ItemsSource="{Binding Dictionaries}"
+                      ItemSelected="ListView_ItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding en}" Detail="{Binding vi}"/>
+                        <TextCell Text="{Binding en}" Detail="{Binding vi}" TextColor="BlueViolet" DetailColor="Violet"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

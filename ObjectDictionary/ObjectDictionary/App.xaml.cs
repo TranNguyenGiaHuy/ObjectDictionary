@@ -1,4 +1,5 @@
-﻿using ObjectDictionary.ViewModels;
+﻿using ObjectDictionary.Converter;
+using ObjectDictionary.ViewModels;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -16,7 +17,16 @@ namespace ObjectDictionary
                 new MainPage
                 {
                     BindingContext = new MainViewModel()
-                });
+                })
+            {
+                BarBackgroundColor = Color.BlueViolet,
+                BarTextColor = Color.White
+            };
+
+            Resources = new ResourceDictionary
+            {
+                ["BooleanToCheckConverter"] = new BooleanToCheckConverter()
+            };
         }
 
         protected override void OnStart()

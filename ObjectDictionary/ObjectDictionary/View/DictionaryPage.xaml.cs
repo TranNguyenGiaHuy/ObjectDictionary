@@ -18,6 +18,11 @@ namespace ObjectDictionary
 			InitializeComponent ();
 		}
 
+        private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            ((ListView)sender).SelectedItem = null;
+        }
+
         //public DictionaryPage (String originalWord)
         //{
         //    InitializeComponent();
@@ -26,5 +31,5 @@ namespace ObjectDictionary
         //    //.Select(it => it.en + " " + it.vi).ToList();
         //    listView.ItemsSource = dislayList;
         //}
-	}
+    }
 }

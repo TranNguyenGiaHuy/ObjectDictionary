@@ -9,14 +9,26 @@
         <ToolbarItem Text="Add" x:Name="toolbarItemAdd" Command="{Binding AddImageCommand}"/>
     </ContentPage.ToolbarItems>
 
-    <StackLayout>
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
         <ListView x:Name="listView"
                   ItemSelected="ListView_ItemSelected"
                   ItemsSource="{Binding ImageDatas}"
-                  IsPullToRefreshEnabled="False">
+                  IsPullToRefreshEnabled="False"
+                  RowHeight="100">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ImageCell Text="{Binding displayDateTime}" ImageSource="{Binding path}" DetailColor="Accent"/>
+                    <ViewCell Height="100">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="60"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding path}" VerticalOptions="CenterAndExpand"/>
+                            <Label Text="{Binding displayDateTime}" VerticalOptions="Center" Margin="15, 0, 10, 0" TextColor="BlueViolet" Grid.Column="1"/>
+                            <Label Text="{Binding IsUpdated, Converter={StaticResource BooleanToCheckConverter}}" Grid.Column="2" VerticalOptions="Center" />
+                        </Grid>
+                    </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
